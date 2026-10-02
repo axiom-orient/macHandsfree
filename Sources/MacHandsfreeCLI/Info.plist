@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>dev.mac-handsfree.cli</string>
+	<key>CFBundleName</key>
+	<string>Mac Handsfree</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mac Handsfree</string>
+	<key>CFBundleExecutable</key>
+	<string>mac-handsfree</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>22</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Mac Handsfree needs calendar access for explicit calendar commands issued by the local agent.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Mac Handsfree needs reminders access for explicit reminders commands issued by the local agent.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Mac Handsfree needs contacts access for explicit contacts commands issued by the local agent.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Mac Handsfree sends Apple events only for explicit local agent commands targeting Apple applications.</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>Mac Handsfree changes system settings or power state only after an explicit planned command.</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+</dict>
+</plist>
